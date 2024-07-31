@@ -1,0 +1,35 @@
+#tbcenter {
+  position: absolute;
+  width: 500px;
+  height: 150px;
+  top: 40%;
+  left: 50%;
+  margin: -75px 0 0 -250px;
+}
+
+#contactform {
+  padding-top: 15vh;
+  padding-right: 10vh;
+  padding-left: 10vh;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#bgvid {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: clamp(8px, 1vw, 12px);
+}
+
