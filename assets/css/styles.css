@@ -1,35 +1,20 @@
-#tbcenter {
-  position: absolute;
-  width: 500px;
-  height: 150px;
-  top: 40%;
-  left: 50%;
-  margin: -75px 0 0 -250px;
+h1, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Cabin","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--bs-heading-color);
+  margin: 0;
+  line-height: 1;
 }
 
-#contactform {
-  padding-top: 15vh;
-  padding-right: 10vh;
-  padding-left: 10vh;
+.fill {
+  min-height: 100%;
+  height: 100%;
 }
 
-body {
-  min-height: 100vh;
-}
-
-#bgvid {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-#footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  font-size: clamp(8px, 1vw, 12px);
+p {
+  font-family: "Cabin","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
